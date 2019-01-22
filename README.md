@@ -21,6 +21,22 @@ RIOT related IRIS testbed application code.
 application code built on mbed OS for the mbed LPC1768 platform and code for
 the Pololu 3pi base (atmega328p MCU).
 
+One very useful piece to the community is the IRISbot's MCU to MCU communication 
+via HDLC over UART. We have implemented cross-comaptible libraries for both 
+RIOT-OS and mbed OS for sending HDLC packets in a multi-threaded environment.
+For the RIOT-OS implementation:
+
+[RIOT-OS HDLC Implementation](https://github.com/ANRGUSC/iris-riot/tree/develop/sys/net/link_layer/hdlc)
+
+[RIOT-OS HDLC Tests](https://github.com/ANRGUSC/iris-riot/tree/develop/examples/iris_testbed/tests/hdlc_txvr)
+
+For the mbed OS implementation:
+
+[mbed OS HDLC Implementation](https://github.com/ANRGUSC/iris-mbed-os-3pi/blob/develop/hdlc.cpp)
+
+[mbed OS HDLC Tests](https://github.com/ANRGUSC/iris-mbed-os-3pi/tree/develop/app_files/hdlc_test)
+
+
 ## PCB Designs
 
 Please see the `pcb_designs` folder to find the .brd and .sch files (Eagle) of 
