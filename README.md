@@ -44,7 +44,8 @@ the various PCB designs for the IRISbots. Since the publishing of our original
 paper, we have upgraded the triple sensor board to a quadruple sensor board 
 because we found using three sensors for omnidirectional localization resulted
 in sporadic blindspots. The layouts have also been simplified to reduce the 
-number of needed jumper cables.
+number of needed jumper cables. To manufacture our PCB designs, we suggest using 
+[seeedstudio.io](https://www.seeedstudio.io/).
 
 ## Video Links
 
